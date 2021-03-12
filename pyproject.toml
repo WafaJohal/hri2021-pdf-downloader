@@ -7,10 +7,9 @@ authors = ["Your Name <you@example.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 requests = "^2.25.1"
-validators = "^0.18.2"
 bs4 = "^0.0.1"
 lxml = "^4.6.2"
-pdoc = "^6.4.0"
+
 
 [tool.poetry.dev-dependencies]
 

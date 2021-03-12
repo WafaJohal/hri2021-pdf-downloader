@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 import requests
-import validators
+
 import sys
 from bs4 import BeautifulSoup as bs
 from urllib.parse import urlparse
 from urllib.request import urlopen
-import urllib.request
-from urllib.parse import quote
-from pprint import pprint
+
 
 
 def get_links(my_url, extension='') -> list:
